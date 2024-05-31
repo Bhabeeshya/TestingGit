@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="text">
+            <style>
+                 form{background-color: pink ; padding: 16px; border-radius: 20px; height: 50%; width: 50%;}
+                input{ margin-bottom: 20px; height: 20px;}
+                input[type="text"]{width: 30%; height: 50px;}
+                input[type="email"]{width: 30%; height: 50px;}
+                input[type="password"]{width: 30%; height: 50px;}
+                input[type="hidden"]{width: 30%; height: 50px;}
+                input[type="tel"]{width: 30%; height: 50px;}
+                input[type="text4"]{width: 100%;}
+                input[type="hidden"]{width: 30%; height: 50px;}
+                input[type="button"]{width: 30%; height: 50px;}
+                input[type="User type"]{width: 30%; height: 50px;}
+
+          </style>
+          <div style="width: 100%; margin-inline: auto;">
+            <form action="test.php" method="past" enctype="multipart/form-data">
+                
+                <input type="text" placeholder="First name" name=""><br>
+                <input type="text" placeholder="Last name" name=""><br>
+                <input type="email" placeholder="email" name=""><br>
+                <input type="password" placeholder="password" name=""><br>
+                <input type="password" placeholder="Confirm password" name=""><br>
+
+                <select name="User type">
+                    <option value="one">Admin</option>
+                    <option value="one">User</option>
+                    <option value="one">Seller</option>
+                </select><br>
+                <input type="text" placeholder="Adress" name=""><br>
+                <input type="tel" placeholder="Phone" name=""><br>
+                <input type="text" placeholder="First name" name=""><br>
+                <input type="hidden" placeholder="User ID"/><br>
+                <input type="text" readonly value="Website name"/><br>
+
+                <div class="click">
+                    <input type="button" value="button" name="">
+                </div>
+                
+            </style>
+        </div>
+    </div>
+</body>
+</html>
